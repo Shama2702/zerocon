@@ -1,0 +1,19 @@
+.nav__subMenu{
+    width: 500px;
+    position: absolute;
+    left: -50%;
+    display: none;
+}
+.nav__subMenu ul{
+    list-style: none;
+}
+.nav__subMenu a{
+    text-decoration: none;
+    color: black;
+}
+#nav__navItemShop:hover ~ .nav__subMenu, .nav__subMenu:hover{
+    display: block;
+}
+.nav__rightMenu{
+    width: 100px;
+}

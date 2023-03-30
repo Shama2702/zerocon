@@ -1,0 +1,22 @@
+.cart__root{
+    min-height: 80vh;
+}
+.cart__emptyCartMessage{
+    width: 90%;
+    max-width: 400px;
+}
+.cart__quantityControler button{
+    width: 40px;
+}
+.cart__quantityControler button:hover{
+    border-radius: 50%;
+    transition-duration: 0.5s;
+}
+.cart__quantityControler input{
+    max-width: 50px;
+}
+
+.checkout__container{
+    width: 95%;
+    max-width: 450px;
+}

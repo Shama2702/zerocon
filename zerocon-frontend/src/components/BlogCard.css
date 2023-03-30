@@ -1,0 +1,13 @@
+.blogCard__card{
+    overflow: hidden;
+}
+.blogCard__card img, .blogCard__card button i{
+    transition-duration: 1s;
+}
+.blogCard__card:hover img{
+    filter: grayscale(100%);
+}
+
+.blogCard__card:hover button i{
+    transform: rotate(180deg);
+}

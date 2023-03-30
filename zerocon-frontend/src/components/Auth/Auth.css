@@ -1,0 +1,24 @@
+.auth__container{
+    width: 90%;
+    max-width: 450px;
+}
+.auth__formGroup{
+    position: relative;
+}
+.auth__formGroup input, .auth__formGroup textarea{
+    border: none;
+    background-color: rgba(0, 0, 0, 0.25);
+    width: 100%;
+    padding: 5px;
+    padding-left: 30px;
+}
+.auth__formGroup input:focus, .auth__formGroup textarea:focus{
+    outline: unset;
+    border-bottom: 2px solid orange;
+}
+.auth__formGroup i{
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translate(0%,-50%);
+}

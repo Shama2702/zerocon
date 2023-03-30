@@ -1,0 +1,28 @@
+.nav__itemContainer{
+    list-style: none;
+}
+.nav__itemContainer a{
+    color: white;
+    text-decoration: none;
+}
+
+
+/* social links menu */
+.footer__social a{
+    color: white;
+}
+.footer__social div{
+    width: 40px;
+    height: 40px;
+    border: 1px solid  #ffc107;
+    margin-right: 10px;
+    position: relative;
+    transition-duration: 0.5s;
+}
+.footer__social div:hover{
+    border-radius: 50%;
+    background-color: #ffc107;
+    border-color: white;
+    color: black;
+    transform: rotate(360deg);
+}

@@ -1,0 +1,15 @@
+.profile__userImage{
+    width: 50%;
+    max-width: 100px;
+}
+.profile__root{
+    min-height: 60vh;
+}
+.profile__notLoginMessage{
+    width: 90%;
+    max-width: 400px;
+    background-color: #0000003d;
+}
+.profile__notLoginMessage i{
+    font-size: 35pt;
+}

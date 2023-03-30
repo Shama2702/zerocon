@@ -1,0 +1,50 @@
+.header{
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.7), transparent), url('./../../assets/banner-bg.jpg');
+    height: 100vw;
+    max-height: 95vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+}
+.header-content{
+    width: 70%;
+    max-width: 400px;
+    position: absolute;
+    bottom: 10%;
+    left: 10%;
+}
+.category-card img{
+    transition-duration: 0.5s;
+}
+.category-card:hover{
+    text-decoration: none;
+}
+.category-card:hover img{
+    transform: scale(1.1);
+}
+
+
+/* feature area style starts */
+.fearureArea__item{
+    border: 1px solid rgba(0, 0, 0, 0.05);
+}
+.fearureArea__icon i{
+    transition-duration: .5s;
+}
+.fearureArea__item:hover i{
+    transform: scale(1.2);
+}
+.fearureArea__icon{
+    font-size: 30pt;
+}
+/* feature area style ends */
+
+/* home banner style starts */
+.home__banner-content{
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 50%;
+    max-width: 450px;
+}
+/* home banner style ends */

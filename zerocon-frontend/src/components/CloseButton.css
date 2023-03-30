@@ -1,0 +1,14 @@
+.closeButton__container{
+    width: 30px;
+    height: 30px;
+    background-image: url('./../assets/icons/close-icon-black.png');
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+.closeButton__container:hover{
+    background-image: url('./../assets/icons/close-icon-red.png');
+    transform: rotate(90deg);
+}

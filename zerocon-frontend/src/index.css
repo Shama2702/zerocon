@@ -1,0 +1,13 @@
+body {
+  margin: 0;
+  font-family: 'Baloo 2', cursive !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+  background-color: rgba(0, 0, 0, 0.05) !important;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
